@@ -1,7 +1,7 @@
 import React from 'react';
-import ArticlePreviews from '../features/articlePreviews/ArticlePreviews';
-import CurrentArticle from '../features/currentArticle/CurrentArticle';
-import Comments from '../features/comments/Comments';
+import ArticlePreviews from './features/articlePreviews/ArticlePreviews';
+import CurrentArticle from './features/currentArticle/CurrentArticle';
+import Comments from './features/comments/Comments';
 
 function App() {
   return (

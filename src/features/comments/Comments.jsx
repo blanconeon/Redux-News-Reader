@@ -4,7 +4,7 @@ import {
   loadCommentsForArticleId,
   selectComments,
   isLoadingComments,
-} from '../comments/commentsSlice';
+} from './commentsSlice';
 import { selectCurrentArticle } from '../currentArticle/currentArticleSlice';
 import CommentList from '../../components/CommentList';
 import CommentForm from '../../components/CommentForm';

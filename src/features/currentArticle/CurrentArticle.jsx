@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   selectCurrentArticle,
   isLoadingCurrentArticle,
-} from '../currentArticle/currentArticleSlice';
+} from './currentArticleSlice';
 import FullArticle from '../../components/FullArticle';
 
 const CurrentArticle = () => {

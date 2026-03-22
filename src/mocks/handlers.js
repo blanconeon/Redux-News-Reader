@@ -1,4 +1,4 @@
-import { rest } from 'msw';
+import { rest } from 'msw/browser';
 import articlesData from './articles.json';
 import commentsData from './comments.json';
 

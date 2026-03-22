@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   createCommentIsPending,
 } from '../features/comments/commentsSlice';
-import { postCommentForArticleId } from '../features/comments/commentsSlice.js';
+import { postCommentForArticleId } from '../features/comments/commentsSlice';
 
 export default function CommentForm({ articleId }) {
   const dispatch = useDispatch();
