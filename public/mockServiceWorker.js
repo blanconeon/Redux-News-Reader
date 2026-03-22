@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 /* tslint:disable */
 
 /**
@@ -301,5 +300,4 @@ function sleep(timeMs) {
 async function respondWithMock(response) {
   await sleep(response.delay)
   return new Response(response.body, response)
-
 }
