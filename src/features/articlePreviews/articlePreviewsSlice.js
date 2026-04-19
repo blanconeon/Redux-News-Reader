@@ -36,7 +36,7 @@ export const articlePreviewsSlice = createSlice({
 
 export const selectAllPreviews = (state) => state.articlePreviews.articles;
 
-export const isLoading = (state) => state.articlePreviews.isLoading;
+export const isLoading = (state) => state.articlePreviews.isLoadingArticlePreviews; 
 
 export default articlePreviewsSlice.reducer;
 
